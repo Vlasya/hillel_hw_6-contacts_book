@@ -17,7 +17,7 @@ export const Content = () => {
                     <Route path='/contacts/contact_table' component={Contacts}/>
                     <Route path='/contacts/formAddContact' component={Contacts}/>
 
-                    <Route path='/home' component={Home}/>
+                    <Route path='/' component={Home}/>
                 </Switch>
             </div>
 
