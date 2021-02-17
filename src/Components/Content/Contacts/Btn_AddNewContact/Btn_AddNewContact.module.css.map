@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,KAAK;EACH,OAAO,EAAE,YAAY;EACrB,eAAe,EAAE,IAAI;EACrB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,eAAe;EACvB,OAAO,EAAE,QAAQ;EACjB,cAAc,EAAE,SAAS;EAEzB,WAAO;IACL,gBAAgB,EAAE,KAAK;IACvB,KAAK,EAAE,KAAK;IACZ,WAAW,EAAE,IAAI;IACjB,UAAU,EAAE,OAAO",
+"sources": ["Btn_AddNewContact.module.scss"],
+"names": [],
+"file": "Btn_AddNewContact.module.css"
+}

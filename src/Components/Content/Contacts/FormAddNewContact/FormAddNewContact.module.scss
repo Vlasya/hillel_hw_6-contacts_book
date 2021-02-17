@@ -1,0 +1,75 @@
+.wrapper {
+  display: flex;
+  margin: 30px auto;
+  position: relative;
+}
+
+.link {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  background-color: black;
+
+  &:hover {
+    background-color: white;
+    color: black;
+    transition: all .5s;
+  }
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding: 10px 24px;
+  text-transform: uppercase;
+  background-color: black;
+
+  &:hover {
+    background-color: white;
+    color: black;
+    transition: all .5s;
+  }
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.inputs {
+  margin-bottom: 25px;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+
+  input {
+    display: inline-block;
+    margin-right: 5px;
+    height: 30px;
+    border: 1px solid #22252d;
+
+    &::placeholder {
+      font-family: 'Baloo 2', cursive;
+      color: black;
+      text-transform: uppercase;
+    }
+
+    &.empty {
+      border: 1px solid red;
+    }
+  }
+}
+
+
+.modalWindow {
+  position: absolute;
+  top:120px;
+  left:50%;
+  transform:translate(-50%, -50%);
+}

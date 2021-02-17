@@ -1,0 +1,12 @@
+.wrapper{
+  display: flex;
+  flex-basis: 80%;
+  background-color: #0d1017;
+  border:2px solid #21262c;
+  height: 100vh;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
